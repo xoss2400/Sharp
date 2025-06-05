@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chinese Learning Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="drag-bar">
+      <div class="battle-scene">
+        <!-- Left Army -->
+        <div class="left-army">
+          <div class="soldier" style="top: 30%"></div>
+          <div class="soldier" style="top: 50%"></div>
+          <div class="soldier" style="top: 70%"></div>
+          <div class="soldier flag-bearer" style="top: 90%">
+            <div class="flag"></div>
+          </div>
+        </div>
+        <!-- Right Army -->
+        <div class="right-army">
+          <div class="soldier" style="top: 30%"></div>
+          <div class="soldier" style="top: 50%"></div>
+          <div class="soldier" style="top: 70%"></div>
+          <div class="soldier flag-bearer" style="top: 90%">
+            <div class="flag"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <input
+        type="text"
+        id="chineseInput"
+        placeholder="Type Chinese characters..."
+      />
+      <div id="result">
+        <div id="pinyinSection"></div>
+        <div id="meaningSection"></div>
+      </div>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>
