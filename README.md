@@ -1,18 +1,18 @@
 # Sharp
 
-A Chinese to English Translation widget. Built with Electron and Python, solely for the purposes of self-learning mandarin.
+A Chinese-to-English translation widget. Built with Electron and Python, solely for lazily self-learning Mandarin. 
 
 ## Features
 
 - **Real-time Chinese Translation**: Instantly translate Chinese text to English
 - **Pinyin Support**: Get pronunciation guides for Chinese characters
 - **Modern Design**: Clean, translucent interface with emerald green theme
-- **Active Combat**: The never ending bit war will go on until the end of time. Proving again the futality in conflict.
+- **Active Combat**: The never-ending bit war will go on until the end of time. Proving again the futility of conflict.
 
 ## Open Roads(Things I've been to lazy to implement)
 
-- **Synonym**: Access a Mandarin thesaurus, return three most commonly used words.
-- **Intent Descriptions**: Understand not only the definition, but use cases of certain chinese words.
+- **Synonym**: Access a Mandarin thesaurus, return the three most commonly used words.
+- **Intent Descriptions**: Understand not only the definition, but use cases of certain Chinese words.
 - **Speech-to-Voice functionality**: Listen to the proper pronunciation.
 
 ## Technical Stack
