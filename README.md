@@ -1,14 +1,19 @@
-# ChineeBot
+# Sharp
 
-A modern Chinese translation application with a unique battle animation interface. Built with Electron and Python, this application combines language learning with an engaging visual experience.
+A Chinese to English Translation widget. Built with Electron and Python, solely for the purposes of self-learning mandarin.
 
 ## Features
 
 - **Real-time Chinese Translation**: Instantly translate Chinese text to English
 - **Pinyin Support**: Get pronunciation guides for Chinese characters
-- **Interactive UI**: Features a unique battle animation in the drag bar
 - **Modern Design**: Clean, translucent interface with emerald green theme
-- **Great Wall Theme**: Battle animation set against a Great Wall of China backdrop
+- **Active Combat**: The never ending bit war will go on until the end of time. Proving again the futality in conflict.
+
+## Open Roads(Things I've been to lazy to implement)
+
+- **Synonym**: Access a Mandarin thesaurus, return three most commonly used words.
+- **Intent Descriptions**: Understand not only the definition, but use cases of certain chinese words.
+- **Speech-to-Voice functionality**: Listen to the proper pronunciation.
 
 ## Technical Stack
 
@@ -22,8 +27,8 @@ A modern Chinese translation application with a unique battle animation interfac
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ChineeBot.git
-cd ChineeBot
+git clone https://github.com/yourusername/Sharp.git
+cd Sharp
 ```
 
 2. Install Python dependencies:
@@ -46,7 +51,7 @@ npm install
 
 ```bash
 cd python-backend
-python app.py
+python main.py
 ```
 
 2. In a new terminal, start the Electron frontend:
@@ -59,15 +64,17 @@ npm start
 ## Project Structure
 
 ```
-ChineeBot/
+Sharp/
 ├── electron-frontend/    # Electron application
 │   ├── index.html       # Main window
 │   ├── styles.css       # Styling
-│   └── renderer.js      # Frontend logic
+│   ├── renderer.js      # Frontend logic
+│   └── main.js          # Electron main process
 ├── python-backend/      # Python server
-│   ├── app.py          # Main server
+│   ├── main.py         # Main server
 │   └── requirements.txt # Python dependencies
-└── README.md           # This file
+├── LICENSE             # MIT License
+└── README.md          # This file
 ```
 
 ## Contributing

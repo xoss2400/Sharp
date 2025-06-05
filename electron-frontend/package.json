@@ -1,15 +1,15 @@
 {
-  "name": "electron-frontend",
+  "name": "sharp",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["chinese", "translation", "electron", "python"],
+  "author": "John McGowan",
+  "license": "MIT",
+  "description": "A Chinese to English Translation widget",
   "devDependencies": {
     "electron": "^29.1.0"
   }

@@ -32,8 +32,6 @@ async def translate_chinese(text: Dict[str, str]):
         translator = GoogleTranslator(source='zh-CN', target='en')
         meaning = translator.translate(chinese_text)
         
-        # GoogleTranslator doesn't provide synonyms directly
-        # We'll return an empty list for synonyms for now
         synonyms = []
         
         return {
